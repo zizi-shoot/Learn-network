@@ -529,9 +529,11 @@
 	padding-left: 69px;
 	background-repeat: no-repeat;
 }
+
 .freelance {
 	background-image: url(../img/exp-freelance.svg);
 }
+
 .upwork {
 	background-image: url('../img/exp-upwork.svg');
 }
@@ -569,4 +571,52 @@
 	font-size: 10px;
 	font-weight: 400;
 	line-height: 1.5;
+}
+
+.education {
+	padding: 29px 30px 34px;
+	margin-bottom: 20px;
+}
+
+.education__title {
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.education__list {}
+
+.education__item {}
+
+.education-item {}
+
+.education-item__article {
+	padding-left: 70px;
+	background-repeat: no-repeat;
+	background-size: 54px;
+}
+.mglu {
+	background-image: url('../img/mglu.png');
+}
+
+.education-artcile__title {
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.education-article__branch {
+	margin-bottom: 9px;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.education-article__period {
+	margin-bottom: 14px;
+	font-size: 10px;
+	font-weight: 300;
+}
+
+.education-article__extra {
+	font-size: 10px;
+	font-weight: 400;
 }
