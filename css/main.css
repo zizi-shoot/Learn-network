@@ -383,7 +383,7 @@
 
 .projects {
 	padding: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 19px;
 }
 
 .projects__title {
@@ -440,5 +440,64 @@
 }
 .projects__more::after {
 	content: attr(data-projects-all);
+	margin-left: 4px;
+}
+
+.skills {
+	padding: 30px 30px 31px;
+	margin-bottom: 20px;
+}
+
+.skills__title {
+	margin-bottom: 21px;
+	font-size: 18px;
+}
+
+.skills__list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 22px;
+}
+
+.skills-item__article {
+	width: 250px;
+	padding: 15px 19px 11px;
+	border: 1px solid #F4F4F4;
+	border-radius: 6px;
+}
+
+
+.skills-article__title {
+	position: relative;
+	margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.skills-article__title::after {
+	content: attr(data-users);
+	position: absolute;
+	right: 0;
+	font-weight: 700;
+	color: #0275B1;
+}
+
+.skills-article__userlist {}
+
+.ux {}
+
+.ui {}
+
+.brand-identity {}
+
+.skills__more {
+	font-size: 12px;
+	font-weight: 500;
+	color: #0275B1;
+	text-transform: uppercase;
+}
+
+.skills__more::after {
+	content: attr(data-skills-all);
 	margin-left: 4px;
 }
