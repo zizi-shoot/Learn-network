@@ -390,6 +390,7 @@
 	margin-bottom: 23px;
 	font-size: 18px;
 }
+
 .projects__title::after {
 	content: attr(data-projects);
 	margin-left: 15px;
@@ -411,12 +412,15 @@
 	background-repeat: no-repeat;
 	background-position: top;
 }
+
 .zara-redesign {
 	background-image: url('../img/projects-redesign.jpg');
 }
+
 .scthon {
 	background-image: url('../img/projects-scthon.jpg');
 }
+
 .drozd {
 	background-image: url('../img/projects-drozd.jpg');
 }
@@ -438,6 +442,7 @@
 	color: #0275B1;
 	text-transform: uppercase;
 }
+
 .projects__more::after {
 	content: attr(data-projects-all);
 	margin-left: 4px;
@@ -445,7 +450,7 @@
 
 .skills {
 	padding: 30px 30px 31px;
-	margin-bottom: 20px;
+	margin-bottom: 19px;
 }
 
 .skills__title {
@@ -500,4 +505,68 @@
 .skills__more::after {
 	content: attr(data-skills-all);
 	margin-left: 4px;
+}
+
+.experience {
+	margin-bottom: 20px;
+	padding: 30px 30px 31px;
+}
+
+.experience__title {
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+.experience__list {}
+
+.experience__item:not(:last-child) {
+	margin-bottom: 22px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+.exp-item__article {
+	padding-left: 69px;
+	background-repeat: no-repeat;
+}
+.freelance {
+	background-image: url(../img/exp-freelance.svg);
+}
+.upwork {
+	background-image: url('../img/exp-upwork.svg');
+}
+
+.exp-article__title {
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.exp-article__employment {
+	margin-bottom: 9px;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.employment-location {
+	margin-left: 10px;
+	font-weight: 300;
+}
+
+.exp-article__period {
+	margin-bottom: 12px;
+	font-size: 10px;
+	font-weight: 300;
+}
+
+.period-amount {
+	margin-left: 10px;
+	font-weight: 500;
+	color: #0275B1;
+}
+
+.exp-article__description {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 1.5;
 }
