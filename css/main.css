@@ -379,6 +379,9 @@
 	flex-wrap: wrap;
 	margin-bottom: 24px;
 }
+.projects-item {
+	display: none;
+}
 
 .projects__item:not(:nth-child(-n+3)) {
 	margin-top: 20px;
@@ -415,14 +418,18 @@
 }
 
 .projects__more {
+	border: none;
+	outline: none;
+	background-color: transparent;
 	font-size: 12px;
 	font-weight: 500;
 	color: #0275B1;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .projects__more::after {
-	content: attr(data-projects-all);
+	content: attr(data-show-all);
 	margin-left: 4px;
 }
 
@@ -439,7 +446,15 @@
 .skills__list {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-bottom: 22px;
+}
+.skills__item {
+	display: none;
+}
+
+.skills__item:not(:nth-child(-n+3)) {
+	margin-top: 15px;
 }
 
 .skills-item__article {
@@ -474,14 +489,18 @@
 .brand-identity {}
 
 .skills__more {
+	border: none;
+	outline: none;
+	background-color: transparent;
 	font-size: 12px;
 	font-weight: 500;
 	color: #0275B1;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .skills__more::after {
-	content: attr(data-skills-all);
+	content: attr(data-show-all);
 	margin-left: 4px;
 }
 
