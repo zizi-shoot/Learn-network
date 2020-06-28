@@ -61,3 +61,15 @@ section:last-child  {
 	max-width: 1180px;
 	margin: 0 auto;
 }
+
+.blur {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	opacity: .4;
+	backdrop-filter: blur(2px);
+	z-index: 10;
+}

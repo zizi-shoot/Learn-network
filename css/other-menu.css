@@ -1,0 +1,183 @@
+.other-header__close-btn {
+	position: absolute;
+	right: 370px;
+	padding: 52px 23px 15px 23px;
+	border: none;
+	background: url('../img/x.svg') center 20px no-repeat #fff;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	z-index: 20;
+}
+
+.header__other {
+	position: absolute;
+	right: 0;
+	width: 370px;
+	border-radius: 0;
+	z-index: 20;
+}
+
+.other-menu__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 17px 0 16px 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+.other-header__title {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.other-header__help {
+	padding: 34px 28px 0px;
+	background: url('../img/help-circle-blue.svg') center top no-repeat;
+	background-size: 23px;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #0275B1
+}
+
+.other-menu__main {
+	margin-bottom: 38px;
+}
+
+.other-main__fast {
+	margin-bottom: 22px;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+.other-fast__wrapper {
+	padding: 0 30px 19px;
+}
+
+.other-fast__main-link {
+	display: block;
+	width: 100%;
+	padding: 10px 64px 12px;
+	margin-bottom: 20px;
+	background: url('../img/book-open.svg') 20px center no-repeat #0275B1;
+	border-radius: 4px;
+	color: #fff;
+}
+
+
+.main-link__title {
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+
+.main-link__description {
+	font-size: 10px;
+	font-weight: 300;
+}
+
+.other-fast__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.other-fast__item {
+	width: 150px;
+	padding: 13px 0 12px 42px;
+	background-size: auto 16px;
+	background-repeat: no-repeat;
+	background-position: 14px center;
+	border: 1px solid #F4F4F4;
+	border-radius: 6px;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.other-fast__item:not(:nth-last-child(-n+2)) {
+	margin-bottom: 10px;
+}
+
+.insights {
+	background-image: url('../img/insights.svg');
+}
+
+.advertise {
+	background-image: url('../img/advertise.svg');
+}
+
+.groups {
+	background-image: url('../img/Groups.svg');
+}
+
+.profinder {
+	background-image: url('../img/profinder.svg');
+}
+
+.salary {
+	background-image: url('../img/salary.svg');
+}
+
+.slideshare {
+	background-image: url('../img/slideshare.svg');
+}
+
+
+.other-main__services {}
+
+.other-services__wrapper {
+	padding: 0 27px 0 30px;
+}
+
+.other-services__title {
+	margin-bottom: 18px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.other-services__list {}
+
+.other-services__item {
+	padding: 16px 20px;
+	margin-bottom: 10px;
+	border: 1px solid #F4F4F4;
+	border-radius: 6px;
+}
+
+.service-item__title {
+	margin-bottom: 7px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.service-item__description {
+	font-size: 10px;
+	font-weight: 300;
+}
+
+.other-menu__footer {
+	padding: 20px 30px;
+	right: 27px;
+	border-top: 1px solid #F4F4F4;
+}
+
+.other-footer__link {
+	display: block;
+	padding: 18px 20px;
+	background: linear-gradient(180deg, #D8C281 0%, #AC9B69 100%);
+	border-radius: 4px;
+	color: #fff;
+}
+
+.prem-link__title {
+	margin-bottom: 5px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.prem-link__description {
+	font-size: 10px;
+	font-weight: 300;
+}

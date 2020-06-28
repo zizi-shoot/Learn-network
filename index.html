@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/_normalize.css">
 	<link rel="stylesheet" href="css/_global.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/other-menu.css">
 	<base href="#">
 </head>
 
@@ -28,7 +29,7 @@
 					<li class="header-nav__item nav-item"><a href="" class="nav-item__link link-notices">Notices</a></li>
 				</ul>
 			</nav>
-			<form action="" class="header__search header-search">
+			<form class="header__search header-search">
 				<button type="submit" class="header-search__btn"></button>
 				<input type="search" class="header-search__input" name="header-search" id="header-search" placeholder="Search">
 			</form>
@@ -36,7 +37,86 @@
 				<h2 class="header-profile__name">D. Kargaev</h2>
 				<p class="header-profile__views">367 views today</p>
 			</a>
-			<a class="header__other">Other</a>
+			<button class="header__other-btn">Other</button>
+			<button class="other-header__close-btn">Close</button>
+			<section class="header__other other-menu">
+				<header class="other-menu__header other-header">
+					<h2 class="other-header__title">More from LinedIn</h2>
+					<a href="" class="other-header__help">Help</a>
+				</header>
+				<main class="other-menu__main other-main">
+					<section class="other-main__fast other-fast">
+						<div class="other-fast__wrapper"><a href="" class="other-fast__main-link main-link">
+								<h2 class="main-link__title">Learning with LinkedIn</h2>
+								<p class="main-link__description">Courses, lectures, workshops</p>
+							</a>
+							<ul class="other-fast__list">
+								<li class="other-fast__item insights">
+									<a href="" class="">Insights</a>
+								</li>
+								<li class="other-fast__item advertise">
+									<a href="" class="">Advertise</a>
+								</li>
+								<li class="other-fast__item groups">
+									<a href="" class="">Groups</a>
+								</li>
+								<li class="other-fast__item profinder">
+									<a href="" class="">Profinder</a>
+								</li>
+								<li class="other-fast__item salary">
+									<a href="" class="">Salary</a>
+								</li>
+								<li class="other-fast__item slideshare">
+									<a href="" class="">Slideshare</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="other-main__services other-services">
+						<div class="other-services__wrapper">
+							<h2 class="other-services__title">Business services</h2>
+							<ul class="other-services__list">
+								<li class="other-services__item service-item">
+									<a href="">
+										<h3 class="service-item__title">Talent Solutions</h3>
+										<p class="service-item__description">Find, attract and recruit talent</p>
+									</a>
+								</li>
+								<li class="other-services__item">
+									<a href="">
+										<h3 class="service-item__title">Sales Solutions</h3>
+										<p class="service-item__description">Unlock sales opportunities</p>
+									</a>
+								</li>
+								<li class="other-services__item">
+									<a href="">
+										<h3 class="service-item__title">Post a job</h3>
+										<p class="service-item__description">Get your job in front of quality candidates</p>
+									</a>
+								</li>
+								<li class="other-services__item">
+									<a href="">
+										<h3 class="service-item__title">Marketing Solutions</h3>
+										<p class="service-item__description">Acquire customers and grow your buisness</p>
+									</a>
+								</li>
+								<li class="other-services__item">
+									<a href="">
+										<h3 class="service-item__title">Learning Solutions</h3>
+										<p class="service-item__description">Develop talent across your organisation</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</main>
+				<footer class="other-menu__footer other-footer">
+					<a class="other-footer__link prem-link">
+						<h2 class="prem-link__title">LinkedIn Premium</h2>
+						<p class="prem-link__description">Special features only for premium users</p>
+					</a>
+				</footer>
+			</section>
 		</div>
 	</header>
 	<div class="main-container container">
@@ -272,6 +352,7 @@
 			</section>
 		</div>
 	</footer>
+	<div class="blur"></div>
 </body>
 
 </html>

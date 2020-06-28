@@ -5,6 +5,7 @@
 }
 
 .header__container {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	max-width: 1440px;
@@ -132,7 +133,7 @@
 	color: #02B033;
 }
 
-.header__other {
+.header__other-btn {
 	padding: 52px 23px 15px 23px;
 	margin-right: 40px;
 	border: none;
@@ -148,7 +149,7 @@
 .header__nav,
 .header__search,
 .header__profile,
-.header__other {
+.header__other-btn {
 	border-right: 1px solid #F4F4F4;
 }
 
