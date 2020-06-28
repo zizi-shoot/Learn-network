@@ -1,8 +1,8 @@
-/* .header__search {
+.header__search {
 	z-index: 21;
 }
 
-.header-search__btn {
+.header-search__btn--active {
 	left: 84.1%;
 	width: 32px;
 	height: 32px;
@@ -10,21 +10,19 @@
 }
 
 .header-search__input {
-	padding: 32px 10px 32px 31px;
 	border: none;
-} */
+}
 
 .header__results {
 	position: absolute;
 	right: 460px;
-	top: 80px;
+	top: -100vh;
 	width: 367px;
 	padding: 25px 30px 20px;
 	border-radius: 0;
 	z-index: 20;
+	transition: top .7s ease-in;
 }
-
-.search-results__list {}
 
 .search-results__item {
 	margin-bottom: 15px;

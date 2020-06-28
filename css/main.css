@@ -91,15 +91,19 @@
 	width: 24px;
 	height: 24px;
 	border: none;
+	outline: none;
 	background-color: transparent;
 	background: url('../img/head-search.svg') no-repeat;
 	transform: translateY(-50%);
+	transition: all .5s;
 }
 
 .header-search__input {
 	width: 100%;
-	padding: 32px 10px 32px 74px;
+	padding: 32px 70px 32px 74px;
 	border: none;
+	outline: none;
+	transition: all .4s linear;
 }
 
 .header-search__input::placeholder {
@@ -160,6 +164,7 @@
 	font-size: 12px;
 	font-weight: 500;
 	text-transform: uppercase;
+
 }
 
 .header__logo,
@@ -425,7 +430,6 @@
 	font-weight: 500;
 	color: #0275B1;
 	text-transform: uppercase;
-	cursor: pointer;
 }
 
 .projects__more::after {
@@ -496,7 +500,6 @@
 	font-weight: 500;
 	color: #0275B1;
 	text-transform: uppercase;
-	cursor: pointer;
 }
 
 .skills__more::after {
