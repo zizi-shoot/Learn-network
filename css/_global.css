@@ -62,14 +62,13 @@ section {
 	margin: 0 auto;
 }
 
-/* .blur {
+.blur {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: #000;
-	opacity: .4;
-	backdrop-filter: blur(2px);
+	background-color: rgba(0, 0, 0, .1);
+	backdrop-filter: blur(3px);
 	z-index: 10;
-} */
+}
