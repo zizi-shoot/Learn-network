@@ -124,9 +124,6 @@
 	background-image: url('../img/slideshare.svg');
 }
 
-
-.other-main__services {}
-
 .other-services__wrapper {
 	padding: 0 27px 0 30px;
 }
@@ -136,8 +133,6 @@
 	font-size: 14px;
 	font-weight: 500;
 }
-
-.other-services__list {}
 
 .other-services__item {
 	padding: 16px 20px;

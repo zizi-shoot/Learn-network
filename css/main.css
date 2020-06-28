@@ -54,8 +54,25 @@
 }
 
 .link-chat {
+	position: relative;
 	padding-top: 2.8em;
 	background-image: url('../img/head-chat.svg');
+}
+
+.link-chat::after {
+	content: '1';
+	position: absolute;
+	width: 16px;
+	bottom: 37px;
+	left: 19px;
+	height: 16px;
+	padding-top: 3px;
+	background: linear-gradient(215.49deg, #FFB75E 5.4%, #ED8F03 93.45%);
+	border-radius: 27px;
+	text-align: center;
+	font-size: 9px;
+	font-weight: 700;
+	color: #fff;
 }
 
 .link-notices {
@@ -359,8 +376,12 @@
 .projects__list {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-bottom: 24px;
+}
 
+.projects__item:not(:nth-child(-n+3)) {
+	margin-top: 20px;
 }
 
 .projects-link__article {
@@ -785,6 +806,7 @@
 .footer-nav__item:not(:nth-child(4n)) {
 	margin-bottom: 12px;
 }
+
 .footer__fast-access {
 	position: relative;
 	left: 9px;
@@ -837,5 +859,4 @@
 	text-transform: uppercase;
 }
 
-.footer-lang__option {
-}
+.footer-lang__option {}
