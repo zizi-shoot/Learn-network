@@ -55,6 +55,7 @@
 	background-position: 15px center, 91% center;
 	border: 1px solid var(--head-border);
 	border-radius: 6px;
+	transition: transform .2s
 }
 
 .res-upwork {
@@ -118,6 +119,7 @@
 	background: url('../img/arrow-right.svg') 91% center no-repeat;
 	border: 1px solid var(--head-border);
 	border-radius: 6px;
+	transition: transform .2s
 }
 
 .result-users__item:not(:last-child) {
@@ -183,6 +185,7 @@
 	background-size: 80px, auto;
 	border: 1px solid var(--head-border);
 	border-radius: 6px;
+	transition: transform .2s;
 }
 
 .articles-item__title {
@@ -217,9 +220,11 @@
 	border-radius: 4px;
 	font-size: 12px;
 	font-weight: 500;
-	color: var(--font-color);
+	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
+	transition: transform .2s
+
 }
 
 .search-results__all::after {

@@ -31,6 +31,7 @@
 .header-nav__item {
 	font-size: 12px;
 	text-transform: uppercase;
+	transition: transform .3s;
 }
 
 
@@ -120,6 +121,7 @@
 	padding: 23px 10px 23px 87px;
 	background: url('../img/profile-img.png') 29px center no-repeat;
 	background-size: 40px;
+	transition: all .2s;
 }
 
 .header-profile__name {
@@ -167,6 +169,7 @@
 	font-weight: 500;
 	text-transform: uppercase;
 	color: var(--font-color);
+	transition: transform .2s;
 
 }
 
@@ -230,6 +233,7 @@
 	color: var(--font-color);
 	border: none;
 	border-radius: 4px;
+	transition: background-color .5s
 }
 .hero-tools__upload {
 	margin-right: auto;
@@ -237,6 +241,7 @@
 .upload-btn {
 	background: url('../img/hero-upload.svg') center no-repeat var(--bg-color);
 	cursor: pointer;
+
 }
 .inputfile {
 	width: 0.1px;
@@ -306,6 +311,7 @@
 	border: none;
 	font-size: 12px;
 	text-transform: uppercase;
+	transition: .3s
 }
 
 .hero__info-btn {
@@ -520,13 +526,6 @@
 	color: #0275B1;
 }
 
-.skills-article__userlist {}
-
-.ux {}
-
-.ui {}
-
-.brand-identity {}
 
 .skills__more {
 	border: none;
@@ -553,8 +552,6 @@
 	margin-bottom: 25px;
 	font-size: 18px;
 }
-
-.experience__list {}
 
 .experience__item:not(:last-child) {
 	margin-bottom: 22px;
@@ -842,13 +839,13 @@
 	margin-bottom: 10px;
 }
 
-.footer-logo__caption {}
-
 .caption-span {
 	color: #0275B1;
 }
 
-.footer__nav {}
+.footer-nav {
+	box-shadow: none;
+}
 
 .footer-nav__title {
 	margin-bottom: 28px;
@@ -862,7 +859,9 @@
 	columns: 3;
 	gap: 35px;
 }
-
+.footer-nav__item {
+	transition: transform .5s;
+}
 .footer-nav__item:not(:nth-child(4n)) {
 	margin-bottom: 12px;
 }
@@ -870,15 +869,17 @@
 .footer__fast-access {
 	position: relative;
 	left: 9px;
+	box-shadow: none;
 }
-
+.fast-access__btn {
+	transition: transform .2s;
+}
 .fast-access__title {
 	margin-bottom: 22px;
 	font-size: 12px;
 	font-weight: 500;
 }
 
-.fast-access__btn {}
 
 .question-btn,
 .settings-btn {
@@ -903,7 +904,9 @@
 	color: #0275B1;
 	box-shadow: inset 0 0 0 1px #0275B1;
 }
-
+.footer__lang {
+	box-shadow: none;
+}
 .footer-lang__title {
 	margin-bottom: 22px;
 	font-size: 12px;
@@ -919,4 +922,3 @@
 	text-transform: uppercase;
 }
 
-.footer-lang__option {}

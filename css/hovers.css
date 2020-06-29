@@ -1,0 +1,54 @@
+.nav-item:hover {
+	transform: scale(0.9);
+}
+
+.header-profile:hover {
+	box-shadow: inset 0 0 1px 100px var(--shadow-color);
+	transform: scale(0.99);
+}
+
+.header__other-btn:hover,
+.other-header__close-btn:hover {
+	transform: scale(0.9);
+}
+
+.upload-btn:hover,
+.hero-tools__btn:hover {
+	background-color: var(--shadow-color)
+}
+
+.hero__info-btn:hover,
+.hero__connections-btn:hover {
+	transform: scale(1.1)
+}
+
+.tabs__btn:hover {
+	text-decoration: underline;
+}
+
+.about__more:hover:hover,
+.projects__more:hover,
+.skills__more:hover,
+.visitors__all:hover,
+.courses__all:hover {
+	text-decoration: underline;
+}
+
+.footer-nav__item:hover {
+	transform: translateX(-5px)
+}
+.fast-access__btn:hover {
+	transform: scale(1.1);
+}
+
+.result-jobs__item:hover,
+.result-users__item:hover,
+.result-articles__item:hover,
+.search-results__all:hover,
+.other-fast__main-link:hover,
+.other-fast__item:hover,
+.other-services__item:hover,
+.prem-link:hover {
+	transform: scale(1.1)
+}
+

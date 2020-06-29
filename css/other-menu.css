@@ -10,7 +10,7 @@
 	text-transform: uppercase;
 	color: var(--font-color);
 	z-index: 30;
-	transition: top .7s ease-in;
+	transition: top .7s ease-in, transform .2s;
 }
 
 .header__other {
@@ -69,6 +69,7 @@
 	background: url('../img/book-open.svg') 20px center no-repeat #0275B1;
 	border-radius: 4px;
 	color: #fff;
+	transition: transform .2s;
 }
 
 
@@ -100,6 +101,7 @@
 	font-size: 12px;
 	font-weight: 500;
 	text-transform: uppercase;
+	transition: transform .2s
 }
 
 .other-fast__item:not(:nth-last-child(-n+2)) {
@@ -145,6 +147,7 @@
 	margin-bottom: 10px;
 	border: 1px solid var(--head-border);
 	border-radius: 6px;
+	transition: transform .2s;
 }
 
 .service-item__title {
@@ -171,7 +174,9 @@
 	border-radius: 4px;
 	color: #fff;
 }
-
+.prem-link {
+	transition: transform .2s
+}
 .prem-link__title {
 	margin-bottom: 5px;
 	font-size: 12px;
@@ -181,4 +186,5 @@
 .prem-link__description {
 	font-size: 10px;
 	font-weight: 300;
+
 }

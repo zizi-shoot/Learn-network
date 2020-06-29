@@ -21,7 +21,9 @@ function displayOtherMenu() {
 function hideOtherMenu() {
 	otherCloseBtn.style.top = '-100vh';
 	otherMenu.style.top = '-100vh';
+
 	setTimeout(() => {
 		blur.remove();
+		blur.style.zIndex = 10;
 	}, 700);
 }
