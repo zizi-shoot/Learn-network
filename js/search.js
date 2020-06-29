@@ -5,11 +5,12 @@ let searchInput = document.querySelector('.header-search__input');
 let searchBtn = document.querySelector('.header-search__btn');
 
 searchInput.addEventListener('input', checkInput);
-searchInput.addEventListener('blur', hideSearch);
 
 function checkInput() {
 	if (searchInput.value.length) {
 		displaySearch();
+	} else {
+		hideSearch();
 	}
 }
 

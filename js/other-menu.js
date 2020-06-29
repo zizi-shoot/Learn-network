@@ -12,6 +12,7 @@ otherCloseBtn.addEventListener('click', hideOtherMenu);
 function displayOtherMenu() {
 	otherCloseBtn.style.top = '0';
 	otherMenu.style.top = '0';
+	blur.style.zIndex = 25;
 	setTimeout(() => {
 		document.body.append(blur);
 	}, 700);

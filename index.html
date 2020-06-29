@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light-theme">
 
 <head>
 	<meta charset="UTF-8">
@@ -9,6 +9,7 @@
 	<script src="js/projects.js" defer></script>
 	<script src="js/other-menu.js" defer></script>
 	<script src="js/search.js" defer></script>
+	<script src="js/themes.js" defer></script>
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/_normalize.css">
 	<link rel="stylesheet" href="css/_global.css">
@@ -182,13 +183,17 @@
 					</a>
 				</footer>
 			</section>
+			<button class="header__theme-btn">Dark</button>
 		</div>
 	</header>
 	<div class="main-container container">
 		<main class="main">
 			<section class="hero">
 				<div class="hero__tools hero-tools">
-					<button class="hero-tools__btn upload-btn"></button>
+					<form action="" class="hero-tools__upload hero-upload" method="POST" enctype="multipart/form-data">
+						<label for="inputfile" class="hero-upload__btn upload-btn"></label>
+						<input type="file" name="file" class="inputfile" id="inputfile" accept="image/*">
+					</form>
 					<button class="hero-tools__btn edit-btn">Edit profile</button>
 					<button class="hero-tools__btn more-btn"></button>
 				</div>

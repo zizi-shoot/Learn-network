@@ -10,11 +10,11 @@ html {
 
 body {
 	margin: 0;
-	background: #F7F9FB;
+	background: var(--page-bg);
 	font-family: 'Gotham Pro';
 	font-size: 14px;
 	font-weight: 500;
-	color: #181818;
+	color: var(--font-color)
 }
 
 h1,
@@ -49,12 +49,12 @@ img {
 }
 
 section {
-	background-color: #fff;
 	border-radius: 4px;
-	box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+	box-shadow: 0px 20px 60px var(--shadow-color);
 }
 button {
 	cursor: pointer;
+	outline: none;
 }
 .main-container section:last-child  {
 	margin-bottom: 0;
@@ -75,3 +75,28 @@ button {
 	backdrop-filter: blur(3px);
 	z-index: 10;
 }
+
+.light-theme {
+	--bg-color: #fff;
+	--font-color: #181818;
+	--page-bg: #f7f9fb;
+	--shadow-color: rgba(89, 120, 150, 0.06);
+	--placeholder: #cecece;
+	--head-border: #F4F4F4;
+	--name-after: rgba(24, 24, 24, 0.2);
+	--tabs-border: #e7e7e7;
+	--tabs-grad: linear-gradient(180deg, rgba(241, 244, 248, 0.8) 0%, rgba(241, 244, 248, 0) 100%);
+}
+
+.dark-theme {
+	--bg-color: #232526;
+	--font-color: #fff;
+	--page-bg: #18191a;
+	--shadow-color: rgba(0, 0, 0, .01);
+	--placeholder: #5d5e61;
+	--head-border: #3a3b3d;
+	--name-after: rgba(255, 255, 255, 0.2);
+	--tabs-border: #424446;
+	--tabs-grad: #232526;
+}
+
