@@ -1,7 +1,7 @@
 .other-header__close-btn {
 	position: absolute;
 	right: 370px;
-	top: -100vh;
+	top: -1000px;
 	padding: 52px 23px 15px 23px;
 	border: none;
 	background: url('../img/x.svg') center 20px no-repeat var(--bg-color);
@@ -16,7 +16,7 @@
 .header__other {
 	position: absolute;
 	right: 0;
-	top: -100vh;
+	top: -1000px;
 	width: 370px;
 	background-color: var(--bg-color);
 	border-radius: 0;

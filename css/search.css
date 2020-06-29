@@ -16,7 +16,7 @@
 .header__results {
 	position: absolute;
 	right: 460px;
-	top: -100vh;
+	top: -1000px;
 	width: 367px;
 	padding: 25px 30px 20px;
 	background-color: var(--bg-color);

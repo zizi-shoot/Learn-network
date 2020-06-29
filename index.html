@@ -24,6 +24,7 @@
 <body>
 	<header class="header">
 		<div class="header__container">
+			<h1 class="header__title visually-hidden">LinedIn Redesign</h1>
 			<a href="" class="header__logo">
 				<img src="img/head-logo.svg" alt="LinkedIn">
 			</a>
@@ -37,24 +38,25 @@
 				</ul>
 			</nav>
 			<form class="header__search header-search">
-				<button type="submit" class="header-search__btn"></button>
+				<button type="submit" class="header-search__btn" aria-label="search"></button>
 				<input type="search" class="header-search__input" name="header-search" id="header-search" placeholder="Search">
 			</form>
 			<section class="header__results search-results">
+				<h2 class="search-results__title visually-hidden">Search results</h2>
 				<ul class="search-results__list">
 					<li class="search-results__item results-item">
 						<section class="results-item__jobs result-jobs">
-							<h2 class="result-jobs__title">Jobs</h2>
+							<h3 class="result-jobs__title">Jobs</h3>
 							<ul class="result-jobs__list">
 								<li class="result-jobs__item jobs-item res-upwork">
 									<a href="">
-										<h3 class="jobs-item__title">UX/UI Designer</h3>
+										<h4 class="jobs-item__title">UX/UI Designer</h4>
 										<p class="jobs-item__detail">Upwork</p>
 									</a>
 								</li>
 								<li class="result-jobs__item jobs-item res-google">
 									<a href="" class="">
-										<h3 class="jobs-item__title">Part-time UX designer</h3>
+										<h4 class="jobs-item__title">Part-time UX designer</h4>
 										<p class="jobs-item__detail">Google</p>
 									</a>
 								</li>
@@ -108,11 +110,11 @@
 			<button class="header__other-btn">Other</button>
 			<button class="other-header__close-btn">Close</button>
 			<section class="header__other other-menu">
-				<header class="other-menu__header other-header">
+				<div class="other-menu__header other-header">
 					<h2 class="other-header__title">More from LinedIn</h2>
 					<a href="" class="other-header__help">Help</a>
-				</header>
-				<main class="other-menu__main other-main">
+				</div>
+				<div class="other-menu__main other-main">
 					<section class="other-main__fast other-fast">
 						<div class="other-fast__wrapper"><a href="" class="other-fast__main-link main-link">
 								<h2 class="main-link__title">Learning with LinkedIn</h2>
@@ -177,13 +179,13 @@
 							</ul>
 						</div>
 					</section>
-				</main>
-				<footer class="other-menu__footer other-footer">
+				</div>
+				<div class="other-menu__footer other-footer">
 					<a class="other-footer__link prem-link">
 						<h2 class="prem-link__title">LinkedIn Premium</h2>
 						<p class="prem-link__description">Special features only for premium users</p>
 					</a>
-				</footer>
+				</div>
 			</section>
 			<button class="header__theme-btn">Dark</button>
 		</div>
@@ -192,12 +194,12 @@
 		<main class="main">
 			<section class="hero">
 				<div class="hero__tools hero-tools">
-					<form action="" class="hero-tools__upload hero-upload" method="POST" enctype="multipart/form-data">
-						<label for="inputfile" class="hero-upload__btn upload-btn"></label>
+					<form class="hero-tools__upload hero-upload" method="POST" enctype="multipart/form-data">
+						<label for="inputfile" class="hero-upload__btn upload-btn" aria-label="upload pic"></label>
 						<input type="file" name="file" class="inputfile" id="inputfile" accept="image/*">
 					</form>
 					<button class="hero-tools__btn edit-btn">Edit profile</button>
-					<button class="hero-tools__btn more-btn"></button>
+					<button class="hero-tools__btn more-btn" aria-label="show more"></button>
 				</div>
 				<img src="img/profile-img.png" alt="User pic" class="hero__pic">
 				<div class="hero__wrapper">
@@ -210,6 +212,7 @@
 				</div>
 			</section>
 			<section class="tabs">
+				<h2 class="tabs__title visually-hidden">Tabs</h2>
 				<button class="tabs__btn tabs__btn--active">Profile</button>
 				<button class="tabs__btn">Activity & interests</button>
 				<button class="tabs__btn articles-btn" data-articles="(3)">Articles</button>
