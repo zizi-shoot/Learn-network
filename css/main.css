@@ -195,6 +195,8 @@
 	font-weight: 500;
 	text-transform: uppercase;
 	color: var(--font-color);
+	z-index: 50;
+	backdrop-filter: blur(50px)
 }
 
 
