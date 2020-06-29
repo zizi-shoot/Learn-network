@@ -317,7 +317,7 @@
 .hero__info-btn {
 	margin-right: 15px;
 	background: linear-gradient(#0077B5, #0E6795);
-	color: var(--bg-color);
+	color: #fff;
 }
 
 .hero__connections-btn {
