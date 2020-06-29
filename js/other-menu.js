@@ -19,8 +19,8 @@ function displayOtherMenu() {
 
 }
 function hideOtherMenu() {
-	otherCloseBtn.style.top = '-100vh';
-	otherMenu.style.top = '-100vh';
+	otherCloseBtn.style.top = '-1000px';
+	otherMenu.style.top = '-1000px';
 
 	setTimeout(() => {
 		blur.remove();

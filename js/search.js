@@ -26,7 +26,7 @@ function displaySearch() {
 function hideSearch() {
 	searchBtn.classList.remove('header-search__btn--active');
 	searchInput.style.paddingLeft = '74px';
-	searchSection.style.top = '-100vh';
+	searchSection.style.top = '-1000px';
 	setTimeout(() => {
 		blur.remove();
 	}, 700);
